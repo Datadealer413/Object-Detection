@@ -1,0 +1,47 @@
+python .\TestLocal.py                  
+2022-06-30 15:31:11.474797: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudart64_110.dll
+2022-06-30 15:31:14.590018: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-06-30 15:31:14.590663: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library nvcuda.dll
+2022-06-30 15:31:14.617207: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties:
+pciBusID: 0000:0e:00.0 name: NVIDIA GeForce RTX 2060 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 30 deviceMemorySize: 6.00GiB deviceMemoryBandwidth: 312.97GiB/s
+2022-06-30 15:31:14.617328: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudart64_110.dll 
+2022-06-30 15:31:14.621446: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublas64_11.dll  
+2022-06-30 15:31:14.621526: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublasLt64_11.dll
+2022-06-30 15:31:14.624040: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cufft64_10.dll   
+2022-06-30 15:31:14.625032: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library curand64_10.dll
+2022-06-30 15:31:14.629486: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cusolver64_10.dll
+2022-06-30 15:31:14.631052: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cusparse64_11.dll
+2022-06-30 15:31:14.631759: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudnn64_8.dll
+2022-06-30 15:31:14.631881: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2022-06-30 15:31:14.632175: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-06-30 15:31:14.633314: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties:
+pciBusID: 0000:0e:00.0 name: NVIDIA GeForce RTX 2060 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 30 deviceMemorySize: 6.00GiB deviceMemoryBandwidth: 312.97GiB/s
+2022-06-30 15:31:14.633422: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudart64_110.dll
+2022-06-30 15:31:14.633518: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublas64_11.dll
+2022-06-30 15:31:14.633590: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublasLt64_11.dll
+2022-06-30 15:31:14.633637: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cufft64_10.dll
+2022-06-30 15:31:14.633698: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library curand64_10.dll
+2022-06-30 15:31:14.633746: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cusolver64_10.dll
+2022-06-30 15:31:14.633789: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cusparse64_11.dll
+2022-06-30 15:31:14.633831: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudnn64_8.dll
+2022-06-30 15:31:14.633904: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2022-06-30 15:31:15.106780: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-06-30 15:31:15.106899: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2022-06-30 15:31:15.107086: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2022-06-30 15:31:15.107427: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 4720 MB memory) -> physical GPU (device: 0, 
+name: NVIDIA GeForce RTX 2060, pci bus id: 0000:0e:00.0, compute capability: 7.5)
+2022-06-30 15:31:15.108634: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-06-30 15:31:21.397615: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2022-06-30 15:31:22.800685: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublas64_11.dll
+2022-06-30 15:31:23.201686: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublasLt64_11.dll
+2022-06-30 15:31:23.217330: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudnn64_8.dll
+2022-06-30 15:31:24.210644: I tensorflow/core/platform/windows/subprocess.cc:308] SubProcess ended with return code: 0
+
+2022-06-30 15:31:24.251401: I tensorflow/core/platform/windows/subprocess.cc:308] SubProcess ended with return code: 0
+
+[522, 295, 69, 40]
+[347, 536, 66, 58]
+{'m0000': 'OS: Windows nt', 'm0001': '--------------------', 'm0002': '========= di_detect_from_image =========', 'm0003': 'detection -1', 'm0004': 'File test.jpg exists? : True', 'm0005': 'timg.shape: (640, 640, 3)', 'm0006': 'detection 0', 'm0007': 'detection A', 'm0008': '=====================================', 'm0009': 'load_image_into_numpy_array', 'm0010': 'path: test.jpg', 'm0011': 'CCC', 'm0012': 'run_inference_for_single_image', 'm0013': 'rifsi_00', 'm0014': 'rifsi_01A', 'm0015': 'rifsi_01B', 'm0016': 'rifsi_02', 'm0017': 'rifsi_03', 'm0018': 'rifsi_04', 'm0019': 'rifsi_05', 'm0020': 'rifsi_06', 'm0021': 'rifsi_11', 'm0022': 'cv2.imread', 'm0023': 'for det_prob, det_class, ', 'm0024': 'detection B', 'm0025': 'len(df): 100', 'm0026': 'detection END'}
